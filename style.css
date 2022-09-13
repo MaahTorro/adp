@@ -1,0 +1,42 @@
+body{
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    background-color: #0f0d0d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 16px 0 16px;
+}
+
+.promo_dia{
+    width: 100%;
+    height: 208px;
+    background-color: black;
+    border-radius: 16px;
+}
+
+.combos{
+    display: flex;
+    min-width: 568px;
+    margin: 16px 0 32px 0px;
+    align-items: flex-start;
+}
+
+.combo{
+    width: 128px;
+    height: 128px;
+    margin-right: 0px;
+}
+
+.c1{
+    background-color: blueviolet;
+}
